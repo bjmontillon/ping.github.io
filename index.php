@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Frontend Mentor | Ping coming soon page</title>
+  <title>Frontend Mentor | Ping coming soon page</title> 
 
 </head>
 <body>
@@ -22,17 +22,19 @@
   <h4>Subscribe and get notified</h4>
 
 
-  <form action="index.php"  method="POST"> 
+  <form action="subscribe.php"  method="POST"> 
 
     <input type="text" name="email" placeholder="Your email address..." required>
-    
+
     <input class="btn" type="submit" name="submit" value="Subscribe">
   </form>
-
-
-
+  
   <div class="dashboard-content">
   <img  class="dashboard" src="images/illustration-dashboard.png" name="dashboard">
+  </div>
+
+  <div class="unsub">
+    <a href="out.php">Unsubscribe</a>
   </div>
 
   
